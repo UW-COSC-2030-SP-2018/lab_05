@@ -20,6 +20,7 @@ double quotation marks, literally: """comment""".
 Markdown files have extension ".md".  Markdown languages control the styling of webpages and other computer interfaces using
 plain text.  The primary example of a markdown language is HTML.
     
+
 ### 4.  How to strip whitespace from the end of a string in C++:
     
 One way to strip the whitespace from the end of a string in C++ is to use the algorithm provided by the pixel compressor file:
@@ -60,14 +61,27 @@ type2 field2;
 
 ### 8.  How to declare a binary tree in C++ and Python:
 
-I will omit the complete implementation of the binary tree and node classes for both C++ and Python.  To declare an object of type "binary tree" after these classes have been implemented, do the following:
-
 ##### C++
 
-my_tree = new bin_tree
-root = new Node
-root->value = 
+using namespace std;
 
+struct Node{
+	int value;
+	struct Node * rightNode = NULL;
+	struct Node * leftNode = NULL;
+};
 
+Node * root = new Node;
+root->value = 5;
 
+##### Python
 
+class Node:
+
+    def __init__(self, value):
+
+        self.left = None
+        self.right = None
+        self.value = value
+
+root = Node(5)
