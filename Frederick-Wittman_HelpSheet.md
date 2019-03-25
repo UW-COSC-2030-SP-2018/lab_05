@@ -62,8 +62,6 @@ type2 field2;
 
 ##### C++
 ```
-using namespace std;
-
 struct Node{
 	int value;
 	struct Node * rightNode = NULL;
