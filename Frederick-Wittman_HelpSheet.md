@@ -1,7 +1,10 @@
-// Frederick Wittman
-// Robin K. Hill
-// COSC 2030-01
-// 06 March 2019
+Frederick Wittman
+
+Robin K. Hill
+
+COSC 2030-01
+
+06 March 2019
 
 ### 1.  To comment C++ code:
 
