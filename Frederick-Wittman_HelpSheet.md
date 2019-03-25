@@ -22,8 +22,7 @@ plain text.  The primary example of a markdown language is HTML.
     
 
 ### 4.  How to strip whitespace from the end of a string in C++:
-    
-One way to strip the whitespace from the end of a string in C++ is to use the algorithm provided by the pixel compressor file:
+    One way to strip the whitespace from the end of a string in C++ is to use the algorithm provided by the pixel compressor file:
     
 #include <string>
     
@@ -62,7 +61,7 @@ type2 field2;
 ### 8.  How to declare a binary tree in C++ and Python:
 
 ##### C++
-
+```
 using namespace std;
 
 struct Node{
@@ -73,15 +72,16 @@ struct Node{
 
 Node * root = new Node;
 root->value = 5;
-
+```
 ##### Python
-
+```
 class Node:
 
     def __init__(self, value):
 
-        self.left = None
-        self.right = None
-        self.value = value
+    	self.left = None
+    	self.right = None
+    	self.value = value
 
 root = Node(5)
+```
