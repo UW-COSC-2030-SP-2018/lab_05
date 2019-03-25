@@ -25,8 +25,12 @@ plain text.  The primary example of a markdown language is HTML.
 One way to strip the whitespace from the end of a string in C++ is to use the algorithm provided by the pixel compressor file:
     
 #include <string>
+    
 string whitespace(" \t\f\v\n\r");  // Define whitespace characters
-sampleString.substr(0, sampleString.find_last_not_of(whitespace));  // This returns a substring beginning at the zeroth element of sampleString and ending at the last character in sampleString that is not the parameter, which in this case is whitespace, of the the find_last_not_of function.  Note that this function will not strip whitespace inside the string, but only whitespace
+    
+sampleString.substr(0, sampleString.find_last_not_of(whitespace));
+
+This returns a substring beginning at the zeroth element of sampleString and ending at the last character in sampleString that is not the parameter, which in this case is whitespace, of the the find_last_not_of function.  Note that this function will not strip whitespace inside the string, but only whitespace
 that trails the last character.
 
 ### 5.  How to create an object of type T and its pointer:
@@ -47,7 +51,11 @@ sequences, and lists. Additionally, lists can be used as the substrate for stack
 Records are linear, direct access data structures with heterogenous components.  In C++, they are declared as structs:
 
 struct {
+
 type1 field1; 
+
 type2 field2;
+
 ...
+
 }
