@@ -5,8 +5,7 @@
 
 ### 1.  To comment C++ code:
 
-    Inserting "//" will identify everything after this symbol as a comment on a single line.  To add a block comment that can span
-    multiple lines, insert the desired comment between the asterisks of the "/* */" symbol.
+    Inserting "//" will identify everything after this symbol as a comment on a single line.  To add a block comment that can span multiple lines, insert the desired comment between the asterisks of the "/* */" symbol.
     
 ### 2.  To comment Python code:
 
