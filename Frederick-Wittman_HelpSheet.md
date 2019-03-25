@@ -56,6 +56,18 @@ type1 field1;
 
 type2 field2;
 
-...
+...}
 
-}
+### 8.  How to declare a binary tree in C++ and Python:
+
+I will omit the complete implementation of the binary tree and node classes for both C++ and Python.  To declare an object of type "binary tree" after these classes have been implemented, do the following:
+
+##### C++
+
+my_tree = new bin_tree
+root = new Node
+root->value = 
+
+
+
+
